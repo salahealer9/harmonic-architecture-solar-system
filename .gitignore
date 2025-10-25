@@ -264,3 +264,13 @@ figures/*.pdf
 # (Uncomment below if you only want to share scripts)
 # /figures/
 
+# ==========================================================
+# Proof Archive (Private)
+# ----------------------------------------------------------
+# The /proof directory contains cryptographic timestamp files
+# (.ots), digital signatures (.asc), and verification manifests
+# for authorship and research integrity.
+# It is intentionally excluded from Git tracking to ensure
+# that sensitive metadata and personal keys remain private.
+# ==========================================================
+proof/
