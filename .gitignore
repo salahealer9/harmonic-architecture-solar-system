@@ -205,3 +205,62 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==========================================
+# Git Ignore File for Harmonic Architecture Repository
+# Author: Salah-Eddin Gherbi
+# ==========================================
+
+# --- Proofs and cryptographic materials ---
+proof/
+*.asc
+*.ots
+*_proof.txt
+README_PROTECTION.md
+
+# --- Python cache & environment files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+.Python
+
+# --- LaTeX build files ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lot
+*.lof
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor / backup files ---
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# --- Figures cache or auto-generated exports ---
+figures/*.png
+figures/*.pdf
+
+# --- Optional: if you don’t want to include generated figures ---
+# (Uncomment below if you only want to share scripts)
+# /figures/
+
