@@ -55,8 +55,9 @@ Plots use consistent color palettes (gold–indigo) for visual clarity.
 ---
 
 ## 🔒 Authorship and Integrity
-Every original research script was cryptographically signed (GPG) and timestamped using [OpenTimestamps](https://opentimestamps.org/).  
-This ensures verifiable authorship and establishes a tamper-proof chain of custody for each computational result.
+All research scripts and results are cryptographically timestamped and digitally signed to ensure authorship integrity and reproducibility.
+A private /proof archive (excluded from this repository) contains verified OpenTimestamps (.ots) proofs, GPG signatures (.asc), and manifest files (_proof.txt) for each script.
+These materials are securely stored offline and available for independent verification upon formal request.
 
 ---
 
