@@ -41,6 +41,11 @@ These are direct outputs of the models and suitable for citation or inclusion in
 ### `/proofs/` *(optional, not public in all releases)*
 Contains `.asc`, `.ots`, and `_proof.txt` files documenting authorship, SHA-256 checksums, and blockchain timestamps for verification integrity.
 
+## 🧾 Notes
+These scripts are simplified, read-only reproductions of the visual and analytical results.  
+All original optimization and analytic code is **archived privately and cryptographically timestamped** for authorship verification.  
+The complete implementation will be released following the publication of the author’s forthcoming book.
+
 ---
 
 ## 🧮 Computational Environment
@@ -66,18 +71,6 @@ If you use or reference this repository, please cite:
 > **Gherbi, S.-E. (2025)**. *The Harmonic Architecture of the Solar System: Verification and Reproduction Scripts*.  
 > Zenodo. DOI: [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
 
-BibTeX:
-```bibtex
-@misc{gherbi2025_harmonic,
-  author       = {Salah-Eddin Gherbi},
-  title        = {The Harmonic Architecture of the Solar System: Verification and Reproduction Scripts},
-  year         = {2025},
-  doi          = {10.5281/zenodo.17432971},
-  url          = {https://doi.org/10.5281/zenodo.17432971},
-  publisher    = {Zenodo},
-  license      = {CC BY-NC 4.0}
-}
-
 ---
 
 ## 📜 License
@@ -94,4 +87,3 @@ You may share and adapt this material for non-commercial purposes, provided appr
 **Email:** [salahealer@gmail.com](mailto:salahealer@gmail.com)  
 **ORCID:** [0009-0005-4017-1095](https://orcid.org/0009-0005-4017-1095)
 
----
