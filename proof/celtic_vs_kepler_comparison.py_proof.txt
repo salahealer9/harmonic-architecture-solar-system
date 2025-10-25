@@ -1,0 +1,22 @@
+=== Mathematical Discovery Proof Record ===
+File: celtic_vs_kepler_comparison.py
+SHA-256 Checksum: 40a65eac1a3df80d9ba0c513c776b13eab7494a8b6ef6c77428c2c72c42d34b0
+Timestamp proof: celtic_vs_kepler_comparison.py.ots
+Digital signature: celtic_vs_kepler_comparison.py.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-21T15:21:27.795106 UTC
+
+Verification instructions:
+1️⃣ Verify file integrity:
+   sha256sum celtic_vs_kepler_comparison.py
+
+2️⃣ Verify digital signature:
+   gpg --verify celtic_vs_kepler_comparison.py.asc celtic_vs_kepler_comparison.py
+
+3️⃣ Verify blockchain timestamp:
+   ots verify celtic_vs_kepler_comparison.py.ots
+
+Notes:
+- The signature authenticates authorship.
+- The timestamp proves the file existed before a specific block date.
+- The SHA-256 checksum ensures no alteration.
