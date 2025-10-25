@@ -1,0 +1,22 @@
+=== Mathematical Discovery Proof Record ===
+File: harmonia_ratio_verification.py
+SHA-256 Checksum: 8916bd75ca93df57091ccc66b1bbd52e243e7654991054167710cf43e58eb54c
+Timestamp proof: harmonia_ratio_verification.py.ots
+Digital signature: harmonia_ratio_verification.py.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-21T15:21:27.795270 UTC
+
+Verification instructions:
+1️⃣ Verify file integrity:
+   sha256sum harmonia_ratio_verification.py
+
+2️⃣ Verify digital signature:
+   gpg --verify harmonia_ratio_verification.py.asc harmonia_ratio_verification.py
+
+3️⃣ Verify blockchain timestamp:
+   ots verify harmonia_ratio_verification.py.ots
+
+Notes:
+- The signature authenticates authorship.
+- The timestamp proves the file existed before a specific block date.
+- The SHA-256 checksum ensures no alteration.
