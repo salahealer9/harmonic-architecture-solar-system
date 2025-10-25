@@ -1,0 +1,22 @@
+=== Mathematical Discovery Proof Record ===
+File: celtic_full_system_rmse.py
+SHA-256 Checksum: 755d1f66f99ffab8d0ee63718c4d83447a30cb18ccf6eb284cfd58440547a7fe
+Timestamp proof: celtic_full_system_rmse.py.ots
+Digital signature: celtic_full_system_rmse.py.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-21T15:21:27.797208 UTC
+
+Verification instructions:
+1️⃣ Verify file integrity:
+   sha256sum celtic_full_system_rmse.py
+
+2️⃣ Verify digital signature:
+   gpg --verify celtic_full_system_rmse.py.asc celtic_full_system_rmse.py
+
+3️⃣ Verify blockchain timestamp:
+   ots verify celtic_full_system_rmse.py.ots
+
+Notes:
+- The signature authenticates authorship.
+- The timestamp proves the file existed before a specific block date.
+- The SHA-256 checksum ensures no alteration.
