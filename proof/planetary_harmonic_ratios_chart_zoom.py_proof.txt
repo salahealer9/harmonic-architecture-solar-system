@@ -1,0 +1,22 @@
+=== Mathematical Discovery Proof Record ===
+File: planetary_harmonic_ratios_chart_zoom.py
+SHA-256 Checksum: 003d8df68fcd5c202e17873acfe3a0e677f45eef812921c70b26d647d1b43fe9
+Timestamp proof: planetary_harmonic_ratios_chart_zoom.py.ots
+Digital signature: planetary_harmonic_ratios_chart_zoom.py.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-21T15:21:27.791620 UTC
+
+Verification instructions:
+1️⃣ Verify file integrity:
+   sha256sum planetary_harmonic_ratios_chart_zoom.py
+
+2️⃣ Verify digital signature:
+   gpg --verify planetary_harmonic_ratios_chart_zoom.py.asc planetary_harmonic_ratios_chart_zoom.py
+
+3️⃣ Verify blockchain timestamp:
+   ots verify planetary_harmonic_ratios_chart_zoom.py.ots
+
+Notes:
+- The signature authenticates authorship.
+- The timestamp proves the file existed before a specific block date.
+- The SHA-256 checksum ensures no alteration.
