@@ -1,0 +1,22 @@
+=== Mathematical Discovery Proof Record ===
+File: harmonic_ladder_linear.py
+SHA-256 Checksum: 1598187116bbea2ba07099326a6e923f132d7d6875d6fe69c6049fe9745969bd
+Timestamp proof: harmonic_ladder_linear.py.ots
+Digital signature: harmonic_ladder_linear.py.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-21T15:21:27.784464 UTC
+
+Verification instructions:
+1️⃣ Verify file integrity:
+   sha256sum harmonic_ladder_linear.py
+
+2️⃣ Verify digital signature:
+   gpg --verify harmonic_ladder_linear.py.asc harmonic_ladder_linear.py
+
+3️⃣ Verify blockchain timestamp:
+   ots verify harmonic_ladder_linear.py.ots
+
+Notes:
+- The signature authenticates authorship.
+- The timestamp proves the file existed before a specific block date.
+- The SHA-256 checksum ensures no alteration.
