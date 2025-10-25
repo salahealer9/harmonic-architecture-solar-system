@@ -41,11 +41,6 @@ These are direct outputs of the models and suitable for citation or inclusion in
 ### `/proofs/` *(optional, not public in all releases)*
 Contains `.asc`, `.ots`, and `_proof.txt` files documenting authorship, SHA-256 checksums, and blockchain timestamps for verification integrity.
 
-## 🧾 Notes
-These scripts are simplified, read-only reproductions of the visual and analytical results.  
-All original optimization and analytic code is **archived privately and cryptographically timestamped** for authorship verification.  
-The complete implementation will be released following the publication of the author’s forthcoming book.
-
 ---
 
 ## 🧮 Computational Environment
