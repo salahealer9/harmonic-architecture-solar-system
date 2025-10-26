@@ -67,6 +67,9 @@ These materials are securely stored offline and available for independent verifi
 The **full research implementation**, including advanced optimization and analysis scripts, will be released following the publication of the author’s forthcoming book.  
 **Meanwhile, qualified researchers may request access to these extended materials for verification or collaborative purposes.**
 
+**Access Policy:**  
+Access to the private repository containing full source files and verification materials may be granted to verified researchers or collaborators upon formal request. Please contact the author at [salahealer@gmail.com](mailto:salahealer@gmail.com) for details.
+
 ---
 
 ## 🧪 How to Reproduce the Figures
