@@ -55,5 +55,5 @@ Available from author upon request for verification purposes.
 **Copyright © 2025 Salah-Eddin Gherbi**  
 Authorship and timestamp verification certified via decentralized proof-of-existence networks.
 
-This repository is distributed under the  
+The public repository ([github.com/salahealer9/harmonic-architecture-solar-system](https://github.com/salahealer9/harmonic-architecture-solar-system)) is distributed under the  
 **Creative Commons Attribution–NonCommercial 4.0 International (CC BY–NC 4.0)**.
