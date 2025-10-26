@@ -216,7 +216,6 @@ proof/
 *.asc
 *.ots
 *_proof.txt
-README_PROTECTION.md
 
 # --- Python cache & environment files ---
 __pycache__/
