@@ -78,18 +78,20 @@ Access to the private repository containing full source files and verification m
    ```bash
    git clone https://github.com/salahealer9/harmonic-architecture-solar-system.git
    cd harmonic-architecture-solar-system/scripts
-
+   ```
 2. **Install required packages** (Python 3.10+):
+   ```bash
    pip install numpy matplotlib scipy
-
-3. **Run the scripts** to regenerate all figures:
+   ```
+4. **Run the scripts** to regenerate all figures:
+   ```bash
    python harmonic_ladder_visualization.py
    python planetary_harmonic_ratios_chart.py
    python planetary_harmonic_percent_deviation_with_inset.py
    python planetary_distances_observed_vs_celtic_log.py
-
+   ```
    Each script will automatically produce .pdf and .png outputs in the working directory.
-
+   
 ---
 
 ## 🧭 Verification Notes
