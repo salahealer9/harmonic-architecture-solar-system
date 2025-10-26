@@ -76,7 +76,7 @@ All published figures reproduced from the study, illustrating model accuracy and
 
 ### `/figures/`
 Rendered figures corresponding to each script.  
-These are direct outputs of the models and suitable for citation or inclusion in publications.
+These are direct outputs of the models and are suitable for citation or publication.
 
 ### `/proofs/` *(not public in all releases)*
 Contains `.asc`, `.ots`, and `_proof.txt` files documenting authorship, SHA-256 checksums, and blockchain timestamps for verification integrity.
