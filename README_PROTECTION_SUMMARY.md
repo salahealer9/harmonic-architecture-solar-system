@@ -35,14 +35,14 @@ gpg --verify <file>.asc <file>
 ots verify <file>.ots
 ```
 
-## :green_book: Discovery Record
+## 📗 Discovery Record
 
-**Discovery:** The Harmonic Quantization Law of the Solar System
-**Verified using:** OpenTimestamps + GPG 
-**Date confirmed:** October 25, 2025 
-**Author:** Salah-Eddin Gherbi 
-**ORCID:** 0009-0005-4017-1095 
-**Contact:** salahealer@gmail.com 
+**Discovery:** The Harmonic Quantization Law of the Solar System  
+**Verified using:** OpenTimestamps + GPG  
+**Date confirmed:** October 25, 2025  
+**Author:** Salah-Eddin Gherbi  
+**ORCID:** 0009-0005-4017-1095  
+**Contact:** salahealer@gmail.com
 
 ## 📜 Citation
 
