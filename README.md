@@ -123,6 +123,13 @@ You may share and adapt this material for non-commercial purposes, provided appr
 
 ---
 
+## 🔒 Integrity Verification
+All original research scripts and figures have been cryptographically timestamped and digitally signed to ensure authenticity and provenance.  
+A public summary of the verification process is available here:  
+➡️ [**README_PROTECTION_SUMMARY.md**](./README_PROTECTION_SUMMARY.md)
+
+---
+
 ## 📬 Contact
 **Author:** Salah-Eddin Gherbi  
 **Email:** [salahealer@gmail.com](mailto:salahealer@gmail.com)  
