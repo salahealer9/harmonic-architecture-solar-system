@@ -26,24 +26,66 @@ The research investigates the harmonic and geometric structure of the Solar Syst
 It proposes a unifying **gravitational quantization law** that models planetary spacing through geometric resonance — achieving sub-1 % mean error when compared to observed orbital data.
 
 ---
+# 📁 Repository Contents (Public Research Release)
 
-## 📂 Repository Contents
+This repository provides the core analytical and visualization scripts accompanying the study:  
+*“The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits”*  
+(S.-E. Gherbi, 2025)
 
-### `/scripts/`
-Minimal Python scripts for reproducing the core analyses and plots:
-- `planetary_harmonic_ratios_chart.py` — Compares observed and modeled orbital distances.  
-- `harmonic_ladder_visualization.py` — Visualizes RMSE and harmonic stability index (HSI) vs. Harmonia’s position.  
-- `planetary_harmonic_percent_deviation_with_inset.py` — Plots percentage deviations with a zoom on the harmonic node.  
-- `planetary_distances_observed_vs_celtic_log.py` — Compares observed vs. predicted distances in logarithmic scale.
+It includes only the essential scripts required to reproduce the published figures and numerical results of the Celtic Cross harmonic model.
 
-Each script runs independently and generates publication-ready figures (PDF/PNG).
+## 🔹 1. Harmonic Model & Core Constants
+
+Defines the fundamental ratios and geometric principles underlying the Celtic Cross framework.
+
+| Script | Description |
+|--------|-------------|
+| `celtic_kepler_symbolic_verification.py` | Symbolic verification of the Celtic Cross ratios (√2 system) vs Kepler's geometric polyhedral ratios. |
+| `celtic_full_system_verification.py` | Full model validation across the Solar System, comparing predicted and observed orbital distances. |
+| `celtic_full_system_rmse.py` | Computes global RMSE to quantify overall model precision. |
+
+## 🔹 2. Optimization & Harmonic Stability
+
+Scripts demonstrating how the optimal harmonic node (2.14 AU) and minimal residual basin are identified.
+
+| Script | Description |
+|--------|-------------|
+| `harmonia_position_optimization.py` | Empirical optimization of Harmonia's orbital position using RMSE minimization. |
+| `harmonic_dual_optimization.py` | Joint RMSE–HSI comparison showing harmonic equilibrium near 2.145 AU. |
+| `harmonic_basin_compact.py` | Compact illustration of the harmonic basin and stability valley around the optimum node. |
+
+## 🔹 3. Planetary Ratios & Comparative Analysis
+
+Compares model predictions, residuals, and ratios across planetary scales.
+
+| Script | Description |
+|--------|-------------|
+| `harmonia_ratio_verification.py` | Tabulates harmonic ratios between planets including the theoretical Harmonia node. |
+| `celtic_vs_kepler_comparison.py` | Quantitative error comparison between Kepler's and Celtic geometric models. |
+| `celtic_mape_optimization.py` | Optimization of MAPE (mean absolute percentage error) across outer planets. |
+
+## 🔹 4. Visualization & Figures
+
+All published figures reproduced from the study, illustrating model accuracy and geometric harmony.
+
+| Script | Description |
+|--------|-------------|
+| `harmonia_orbit_node_2_14.py` | Diagram of the Solar System showing the 2.14 AU harmonic node and asteroid belt context. |
+| `harmonic_ladder_RMSE_HSI_Residuals_symlog_final.py` | Dual-axis plot of RMSE and HSI with symmetric log residuals (final publication figure). |
+| `planetary_harmonic_percent_deviation_with_inset.py` | Percentage deviation plot with inset zoom around the Harmonia node. |
 
 ### `/figures/`
 Rendered figures corresponding to each script.  
 These are direct outputs of the models and suitable for citation or inclusion in publications.
 
-### `/proofs/` *(optional, not public in all releases)*
+### `/proofs/` *(not public in all releases)*
 Contains `.asc`, `.ots`, and `_proof.txt` files documenting authorship, SHA-256 checksums, and blockchain timestamps for verification integrity.
+
+## 🔹 5. Access to Extended Materials
+
+Additional analytical and verification scripts (full suite of 26) are retained in a private research repository.
+
+Researchers interested in the complete dataset, verification proofs, or replication materials may request access directly from the author at [salahealer@gmail.com](mailto:salahealer@gmail.com).
 
 ---
 
@@ -85,10 +127,18 @@ Access to the private repository containing full source files and verification m
    ```
 4. **Run the scripts** to regenerate all figures:
    ```bash
-   python harmonic_ladder_visualization.py
-   python planetary_harmonic_ratios_chart.py
+   python celtic_kepler_symbolic_verification.py
+   python celtic_full_system_verification.py
+   python celtic_full_system_rmse.py
+   python harmonia_position_optimization.py
+   python harmonic_dual_optimization.py
+   python harmonic_basin_compact.py
+   python harmonia_ratio_verification.py
+   python celtic_vs_kepler_comparison.py
+   python celtic_mape_optimization.py
+   python harmonia_orbit_node_2_14.py
+   python harmonic_ladder_RMSE_HSI_Residuals_symlog_final.py
    python planetary_harmonic_percent_deviation_with_inset.py
-   python planetary_distances_observed_vs_celtic_log.py
    ```
    Each script will automatically produce .pdf and .png outputs in the working directory.
    
