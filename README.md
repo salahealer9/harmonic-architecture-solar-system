@@ -64,6 +64,9 @@ All research scripts and results are **cryptographically timestamped** and **dig
 A private `/proof/` archive (excluded from this repository) contains verified OpenTimestamps (`.ots`) proofs, GPG signatures (`.asc`), and manifest files (`_proof.txt`) for each script.  
 These materials are securely stored offline and available for independent verification upon formal request.
 
+The **full research implementation**, including advanced optimization and analysis scripts, will be released following the publication of the author’s forthcoming book.  
+**Meanwhile, qualified researchers may request access to these extended materials for verification or collaborative purposes.**
+
 ---
 
 ## 🧪 How to Reproduce the Figures
