@@ -118,6 +118,6 @@ You may share and adapt this material for non-commercial purposes, provided appr
 ## 📬 Contact
 **Author:** Salah-Eddin Gherbi  
 **Email:** [salahealer@gmail.com](mailto:salahealer@gmail.com)  
-**ORCID:** [0009-0005-4017-1095](https://orcid.org/0009-0005-4017-1095)
-**Repository:** [Harmonic Architecture Solar System](github.com/salahealer9/harmonic-architecture-solar-system)
+**ORCID:** [0009-0005-4017-1095](https://orcid.org/0009-0005-4017-1095)  
+**Repository:** [Harmonic Architecture Solar System](https://github.com/salahealer9/harmonic-architecture-solar-system)
 
