@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17432971.svg)](https://doi.org/10.5281/zenodo.17432971)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+
 # The Harmonic Architecture of the Solar System
 ### Verification and Reproduction Scripts for *“The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits”*
 
