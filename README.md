@@ -59,9 +59,42 @@ Plots use consistent color palettes (gold–indigo) for visual clarity.
 ---
 
 ## 🔒 Authorship and Integrity
-All research scripts and results are cryptographically timestamped and digitally signed to ensure authorship integrity and reproducibility.
-A private /proof archive (excluded from this repository) contains verified OpenTimestamps (.ots) proofs, GPG signatures (.asc), and manifest files (_proof.txt) for each script.
+
+All research scripts and results are **cryptographically timestamped** and **digitally signed** to ensure authorship integrity and reproducibility.  
+A private `/proof/` archive (excluded from this repository) contains verified OpenTimestamps (`.ots`) proofs, GPG signatures (`.asc`), and manifest files (`_proof.txt`) for each script.  
 These materials are securely stored offline and available for independent verification upon formal request.
+
+---
+
+## 🧪 How to Reproduce the Figures
+
+1. **Clone or download** this repository:  
+   ```bash
+   git clone https://github.com/salahealer9/harmonic-architecture-solar-system.git
+   cd harmonic-architecture-solar-system/scripts
+
+2. **Install required packages** (Python 3.10+):
+   pip install numpy matplotlib scipy
+
+3. **Run the scripts** to regenerate all figures:
+   python harmonic_ladder_visualization.py
+   python planetary_harmonic_ratios_chart.py
+   python planetary_harmonic_percent_deviation_with_inset.py
+   python planetary_distances_observed_vs_celtic_log.py
+
+   Each script will automatically produce .pdf and .png outputs in the working directory.
+
+---
+
+## 🧭 Verification Notes
+For details on digital signatures and cryptographic timestamps, see the *Authorship and Integrity* section above.  
+All original research files were timestamped and signed for integrity using:
+
+- **.asc** → GPG digital signature  
+- **.ots** → OpenTimestamps blockchain proof  
+- **_proof.txt** → SHA-256 manifest  
+
+Verification materials are stored in the private `/proof/` archive and are available for independent validation upon request.
 
 ---
 
@@ -86,4 +119,5 @@ You may share and adapt this material for non-commercial purposes, provided appr
 **Author:** Salah-Eddin Gherbi  
 **Email:** [salahealer@gmail.com](mailto:salahealer@gmail.com)  
 **ORCID:** [0009-0005-4017-1095](https://orcid.org/0009-0005-4017-1095)
+**Repository:** [Harmonic Architecture Solar System](github.com/salahealer9/harmonic-architecture-solar-system)
 
