@@ -1,0 +1,12 @@
+=== Mathematical Discovery Proof Record ===
+File: harmonia_orbit_node_2_14.pdf
+SHA-256 Checksum: b5fa2d0b456bef1c4f62bf065406d20cb6a750c2a6569e6ed0730beae5c2fe8c
+Timestamp proof: harmonia_orbit_node_2_14.pdf.ots
+Digital signature: harmonia_orbit_node_2_14.pdf.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-26T18:40:13.151159 UTC
+
+Verification instructions:
+1️⃣ sha256sum harmonia_orbit_node_2_14.pdf
+2️⃣ gpg --verify harmonia_orbit_node_2_14.pdf.asc harmonia_orbit_node_2_14.pdf
+3️⃣ ots verify harmonia_orbit_node_2_14.pdf.ots

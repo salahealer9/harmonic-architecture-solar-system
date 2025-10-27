@@ -1,0 +1,12 @@
+=== Mathematical Discovery Proof Record ===
+File: planetary_harmonic_percent_deviation_with_inset.pdf
+SHA-256 Checksum: 0b6921ffcf4beba084bcbdbdd7d3fed5d29dd5e3d662e12194d2910f0f412c96
+Timestamp proof: planetary_harmonic_percent_deviation_with_inset.pdf.ots
+Digital signature: planetary_harmonic_percent_deviation_with_inset.pdf.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-26T19:00:45.641689 UTC
+
+Verification instructions:
+1️⃣ sha256sum planetary_harmonic_percent_deviation_with_inset.pdf
+2️⃣ gpg --verify planetary_harmonic_percent_deviation_with_inset.pdf.asc planetary_harmonic_percent_deviation_with_inset.pdf
+3️⃣ ots verify planetary_harmonic_percent_deviation_with_inset.pdf.ots

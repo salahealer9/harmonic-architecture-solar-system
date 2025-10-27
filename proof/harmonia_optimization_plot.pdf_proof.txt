@@ -1,0 +1,12 @@
+=== Mathematical Discovery Proof Record ===
+File: harmonia_optimization_plot.pdf
+SHA-256 Checksum: cd913d36411566997d8334f0e35c96ae59ed87840794020f8ca14fc2b28da20c
+Timestamp proof: harmonia_optimization_plot.pdf.ots
+Digital signature: harmonia_optimization_plot.pdf.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-26T18:39:48.018286 UTC
+
+Verification instructions:
+1️⃣ sha256sum harmonia_optimization_plot.pdf
+2️⃣ gpg --verify harmonia_optimization_plot.pdf.asc harmonia_optimization_plot.pdf
+3️⃣ ots verify harmonia_optimization_plot.pdf.ots

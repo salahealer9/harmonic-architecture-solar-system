@@ -1,0 +1,12 @@
+=== Mathematical Discovery Proof Record ===
+File: harmonic_basin_compact.pdf
+SHA-256 Checksum: b0428429640ba0e3cbb7d27c02bca565ebb7908e09dbb168c5dce0dafc63a0ec
+Timestamp proof: harmonic_basin_compact.pdf.ots
+Digital signature: harmonic_basin_compact.pdf.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-26T18:40:33.235970 UTC
+
+Verification instructions:
+1️⃣ sha256sum harmonic_basin_compact.pdf
+2️⃣ gpg --verify harmonic_basin_compact.pdf.asc harmonic_basin_compact.pdf
+3️⃣ ots verify harmonic_basin_compact.pdf.ots

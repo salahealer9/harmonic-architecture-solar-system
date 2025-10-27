@@ -1,0 +1,12 @@
+=== Mathematical Discovery Proof Record ===
+File: RMSE_and_HSI_vs_Harmonia_Position_Optimization.pdf
+SHA-256 Checksum: faf76debe9bc4ad41c881b1a6b42d9145eb9cfd31f4875d752ae11705ee3c8e1
+Timestamp proof: RMSE_and_HSI_vs_Harmonia_Position_Optimization.pdf.ots
+Digital signature: RMSE_and_HSI_vs_Harmonia_Position_Optimization.pdf.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-26T18:40:50.222089 UTC
+
+Verification instructions:
+1️⃣ sha256sum RMSE_and_HSI_vs_Harmonia_Position_Optimization.pdf
+2️⃣ gpg --verify RMSE_and_HSI_vs_Harmonia_Position_Optimization.pdf.asc RMSE_and_HSI_vs_Harmonia_Position_Optimization.pdf
+3️⃣ ots verify RMSE_and_HSI_vs_Harmonia_Position_Optimization.pdf.ots

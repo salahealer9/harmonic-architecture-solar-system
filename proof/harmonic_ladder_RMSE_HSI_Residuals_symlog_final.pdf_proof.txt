@@ -1,0 +1,12 @@
+=== Mathematical Discovery Proof Record ===
+File: harmonic_ladder_RMSE_HSI_Residuals_symlog_final.pdf
+SHA-256 Checksum: 10c4cb1f46b96d52b3b69a3978f1b60c7d5ceeede576e3fe21dc2eb5b1b9e89f
+Timestamp proof: harmonic_ladder_RMSE_HSI_Residuals_symlog_final.pdf.ots
+Digital signature: harmonic_ladder_RMSE_HSI_Residuals_symlog_final.pdf.asc
+Signed with UID/comment: Salah-Eddin Gherbi (Discovery Harmonic quantization of the solar system)
+Date generated: 2025-10-26T18:38:46.330436 UTC
+
+Verification instructions:
+1️⃣ sha256sum harmonic_ladder_RMSE_HSI_Residuals_symlog_final.pdf
+2️⃣ gpg --verify harmonic_ladder_RMSE_HSI_Residuals_symlog_final.pdf.asc harmonic_ladder_RMSE_HSI_Residuals_symlog_final.pdf
+3️⃣ ots verify harmonic_ladder_RMSE_HSI_Residuals_symlog_final.pdf.ots
