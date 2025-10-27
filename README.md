@@ -15,24 +15,19 @@
 ---
 
 ## 📘 Overview
-This repository provides simplified, read-only Python scripts and figures that reproduce the key results and visualizations from the paper:
+This repository contains the core analytical and visualization scripts accompanying the paper:
 
 > **Salah-Eddin Gherbi (2025)**  
 > *The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits*  
 > arXiv: [astro-ph.EP] (pending submission)  
 > Zenodo DOI: [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
 
-The research investigates the harmonic and geometric structure of the Solar System using algebraic ratios derived from the Silver Ratio (√2 + 1).  
-It proposes a unifying **gravitational quantization law** that models planetary spacing through geometric resonance — achieving sub-1 % mean error when compared to observed orbital data.
+The research reinterprets Kepler's celestial harmony using the Celtic Cross harmonic model — a geometric framework based on algebraic ratios of √2 and its derivatives. The model accurately predicts planetary spacing, identifies the lost planet Harmonia at ≈ 2.14 AU, and demonstrates that the Solar System obeys a quantized harmonic order.
+
+All included Python scripts reproduce the published figures, tables, and numerical results of the paper.
 
 ---
-# 📁 Repository Contents (Public Research Release)
-
-This repository provides the core analytical and visualization scripts accompanying the study:  
-*“The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits”*  
-(S.-E. Gherbi, 2025)
-
-It includes only the essential scripts required to reproduce the published figures and numerical results of the Celtic Cross harmonic model.
+# 📁 Repository Contents
 
 ## 🔹 1. Harmonic Model & Core Constants
 
@@ -161,6 +156,16 @@ If you use or reference this repository, please cite:
 
 > **Gherbi, S.-E. (2025)**. *The Harmonic Architecture of the Solar System: Verification and Reproduction Scripts*.  
 > Zenodo. DOI: [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
+> 
+```bash
+@software{gherbi_2025_harmonic_model,
+  author    = {Salah-Eddin Gherbi},
+  title     = {The Gravitational Quantization Law: Harmonic Model Repository},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.17432971}
+}
+```
 
 ---
 
@@ -170,6 +175,15 @@ This repository is licensed under the
 
 © 2025 Salah-Eddin Gherbi.  
 You may share and adapt this material for non-commercial purposes, provided appropriate credit is given.
+
+---
+
+## 🌠 Acknowledgment
+
+All computations, analyses, and visualizations were independently developed by **Salah-Eddin Gherbi** as part of original research into the harmonic-geometric structure of the Solar System.
+
+For academic collaboration, verification requests, or replication studies, please contact:  
+**📧 salahealer@gmail.com**
 
 ---
 
