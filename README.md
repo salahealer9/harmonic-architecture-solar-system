@@ -27,6 +27,25 @@ The research reinterprets Kepler's celestial harmony using the Celtic Cross harm
 All included Python scripts reproduce the published figures, tables, and numerical results of the paper.
 
 ---
+
+## 📄 Preprint & Research Record
+
+This repository accompanies the preprint:
+
+**Salah-Eddin Gherbi (2025)**  
+*The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits*  
+Prepared for submission to *arXiv (astro-ph.EP)*.  
+
+📥 **ArXiv-ready version (PDF):** [`The_Gravitational_Quantization_Law_arXiv_v1_1.pdf`](./The_Gravitational_Quantization_Law_arXiv_v1_1.pdf)  
+🪐 **Zenodo archival record (DOI):** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971) — *Harmonic Architecture of the Solar System (v1.1)*  
+
+The two versions share identical scientific content and figures; only the title, subtitle, and abstract differ for publication contexts:
+- **Zenodo:** Archival and timestamped record with supplementary materials.  
+- **ArXiv:** Finalized preprint version for scholarly dissemination.
+
+All computational models, harmonic optimization scripts, and figure-generation tools are included here for open verification.
+
+---
 # 📁 Repository Contents
 
 ## 🔹 1. Harmonic Model & Core Constants
