@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17521488.svg)](https://doi.org/10.5281/zenodo.17521488)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17432971.svg)](https://doi.org/10.5281/zenodo.17432971)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
@@ -9,17 +10,23 @@
 **Affiliation:** Independent Researcher, United Kingdom  
 **ORCID:** [0009-0005-4017-1095](https://orcid.org/0009-0005-4017-1095)  
 **Contact:** salahealer@gmail.com  
-**Zenodo DOI:** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)  
+**Concept DOI:** [10.5281/zenodo.17477597](https://doi.org/10.5281/zenodo.17477597)  
+**Latest Version:** [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)  
 **License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
 
 ---
 
 ## 📘 Overview
-This repository contains the core analytical and visualization scripts accompanying the paper:
+This repository contains the core analytical and visualization scripts accompanying the published research:
+
+> **Salah-Eddin Gherbi (2025)**  
+> *The Harmonic Architecture of the Solar System: A Geometric and Resonant Analysis*  
+> **Version 2.0** — Extended validation with empirical testing framework  
+> Zenodo DOI: [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
 
 > **Salah-Eddin Gherbi (2025)**  
 > *The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits*  
-> arXiv: [astro-ph.EP] (pending submission)  
+> **Version 1.0** — Initial harmonic framework  
 > Zenodo DOI: [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
 
 The research reinterprets Kepler's celestial harmony using the Celtic Cross harmonic model — a geometric framework based on algebraic ratios of √2 and its derivatives. The model accurately predicts planetary spacing, identifies the lost planet Harmonia at ≈ 2.14 AU, and demonstrates that the Solar System obeys a quantized harmonic order.
@@ -28,20 +35,62 @@ All included Python scripts reproduce the published figures, tables, and numeric
 
 ---
 
-## 📄 Preprint & Research Record
+## 🚀 Version History
 
-This repository accompanies the preprint:
+### Version 2.0 (November 2025) — Extended Validation & Testability
+**Expands the quantitative and methodological foundations**, refining both empirical validation and theoretical testability of the Celtic Cross harmonic model.
 
+**Key Enhancements:**
+- **Empirical Validation**: Detailed statistical analysis demonstrating all planetary semi-major axes fit within sub-percent deviation (MAPE ≈ 0.72%, RMSE ≈ 0.11 AU)
+- **Comparative Performance**: Outperforms classical Keplerian and Titius–Bode formulations by over an order of magnitude
+- **Falsifiability Framework**: Explicit testable predictions, including harmonic node at 2.14 AU for future observational verification
+- **Enhanced Reproducibility**: Complete cryptographic verification and timestamped analysis pipeline
+
+**DOI:** [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
+
+### Version 1.0 (October 2025) — Initial Framework
+- Initial harmonic framework for Solar System
+- Celtic Cross geometric model based on √2 ratios
+- Harmonia orbital prediction at 2.14 AU
+- Foundational scripts and verification proofs
+
+**DOI:** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
+
+---
+
+## 🔬 Research Evolution
+
+**From Pattern to Predictive Framework:**
+- **v1.0**: Established the core harmonic model and geometric foundation
+- **v2.0**: Transformed into a testable scientific framework with:
+  - **Quantitative validation** (0.72% MAPE across full solar system)
+  - **Comparative benchmarking** vs. classical models
+  - **Falsifiability criteria** for empirical testing
+  - **Cryptographic reproducibility** guarantees
+
+The model now stands as a **predictive, testable framework** rather than just a descriptive pattern.
+
+---
+
+## 📄 Research Records
+
+### Version 2.0 — Extended Validation & Testability
+**Salah-Eddin Gherbi (2025)**  
+*The Harmonic Architecture of the Solar System: A Geometric and Resonant Analysis*  
+**Zenodo DOI:** [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
+
+📥 **PDF:** [`Gherbi_2025_Harmonic_Architecture_Solar_System_v_2.pdf`](./Gherbi_2025_Harmonic_Architecture_Solar_System_v_2.pdf)
+
+*This version expands quantitative foundations with detailed empirical validation and explicit falsifiability tests, strengthening the model's scientific positioning.*
+
+### Version 1.0 — Initial Framework  
 **Salah-Eddin Gherbi (2025)**  
 *The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits*  
-Prepared for submission to *arXiv (astro-ph.EP)*.  
+**Zenodo DOI:** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
 
-📥 **ArXiv-ready version (PDF):** [`The_Gravitational_Quantization_Law_arXiv_v1_1.pdf`](./The_Gravitational_Quantization_Law_arXiv_v1_1.pdf)  
-🪐 **Zenodo archival record (DOI):** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971) — *Harmonic Architecture of the Solar System (v1.1)*  
+📥 **PDF:** [`Gherbi_2025_Harmonic_Architecture_Solar_System_v1_1.pdf`](./Gherbi_2025_Harmonic_Architecture_Solar_System_v1_1.pdf)
 
-The two versions share identical scientific content and figures; only the title, subtitle, and abstract differ for publication contexts:
-- **Zenodo:** Archival and timestamped record with supplementary materials.  
-- **ArXiv:** Finalized preprint version for scholarly dissemination.
+*This version establishes the core harmonic model and geometric foundation*
 
 All computational models, harmonic optimization scripts, and figure-generation tools are included here for open verification.
 
@@ -174,17 +223,20 @@ Verification materials are stored in the private `/proof/` archive and are avail
 If you use or reference this repository, please cite:
 
 > **Gherbi, S.-E. (2025)**. *The Harmonic Architecture of the Solar System: Verification and Reproduction Scripts*.  
-> Zenodo. DOI: [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
+> Zenodo. DOI: [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
 > 
-```bash
-@software{gherbi_2025_harmonic_model,
+```bibtex
+@software{gherbi_2025_harmonic_architecture,
   author    = {Salah-Eddin Gherbi},
-  title     = {The Gravitational Quantization Law: Harmonic Model Repository},
+  title     = {The Harmonic Architecture of the Solar System: A Geometric and Resonant Analysis},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.17432971}
+  version   = {2.0},
+  doi       = {10.5281/zenodo.17521488}
 }
 ```
+
+For citation of Version 1.0, please take a look at the Version History section.
 
 ---
 
