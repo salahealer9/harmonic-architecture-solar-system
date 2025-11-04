@@ -5,6 +5,7 @@
 
 # The Harmonic Architecture of the Solar System
 ### Verification and Reproduction Scripts for *“The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits”*
+📦 **Version 2.0 released:** Sub-percent accuracy with falsifiable predictions
 
 **Author:** Salah-Eddin Gherbi  
 **Affiliation:** Independent Researcher, United Kingdom  
