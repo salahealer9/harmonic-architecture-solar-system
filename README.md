@@ -1,274 +1,340 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18816002.svg)](https://doi.org/10.5281/zenodo.18816002)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17521488.svg)](https://doi.org/10.5281/zenodo.17521488)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17432971.svg)](https://doi.org/10.5281/zenodo.17432971)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
 # The Harmonic Architecture of the Solar System
-### Verification and Reproduction Scripts for *“The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits”*
-📦 **Version 2.0 released:** Sub-percent accuracy with falsifiable predictions
+### Verification and Reproduction Scripts for the Silver-Ratio Harmonic Framework (SRHF)
+
+📦 **Version 3.0 released:** Revised and expanded manuscript — submitted to
+*Frontiers in Astronomy and Space Sciences*, archived on Zenodo as the definitive preprint.
 
 **Author:** Salah-Eddin Gherbi  
 **Affiliation:** Independent Researcher, United Kingdom  
 **ORCID:** [0009-0005-4017-1095](https://orcid.org/0009-0005-4017-1095)  
 **Contact:** salahealer@gmail.com  
-**Concept DOI:** [10.5281/zenodo.17477597](https://doi.org/10.5281/zenodo.17477597)  
-**Latest Version:** [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)  
-**License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
+**Concept DOI (always resolves to latest):** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)  
+**Latest Version DOI:** [10.5281/zenodo.18816002](https://doi.org/10.5281/zenodo.18816002)  
+**License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
 ## 📘 Overview
-This repository contains the core analytical and visualization scripts accompanying the published research:
 
-> **Salah-Eddin Gherbi (2025)**  
-> *The Harmonic Architecture of the Solar System: A Geometric and Resonant Analysis*  
-> **Version 2.0** — Extended validation with empirical testing framework  
-> Zenodo DOI: [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
+This repository contains the analytical and visualisation scripts accompanying the research:
 
-> **Salah-Eddin Gherbi (2025)**  
-> *The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits*  
-> **Version 1.0** — Initial harmonic framework  
-> Zenodo DOI: [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
+> **Salah-Eddin Gherbi (2026)**  
+> *The Harmonic Architecture of the Solar System:  
+> A Silver-Ratio-Based Hypothesis for Planetary Spacing*  
+> **Version 3.0** — Revised and expanded manuscript, definitive preprint  
+> Zenodo DOI: [10.5281/zenodo.18816002](https://doi.org/10.5281/zenodo.18816002)
 
-The research reinterprets Kepler's celestial harmony using the Celtic Cross harmonic model — a geometric framework based on algebraic ratios of √2 and its derivatives. The model accurately predicts planetary spacing, identifies the lost planet Harmonia at ≈ 2.14 AU, and demonstrates that the Solar System obeys a quantized harmonic order.
+This research is the companion paper to the author's book:
 
-All included Python scripts reproduce the published figures, tables, and numerical results of the paper.
+> **Salah-Eddin Gherbi (2026)**  
+> *Scala Harmonica: The Geometry of Planetary Resonance*
+
+The research reinterprets planetary spacing using the Celtic Cross harmonic model — a
+geometric framework based on algebraic ratios of √2 and its derivatives. The model
+accurately predicts planetary semi-major axes, identifies the hypothesised lost planet
+*Harmonia* at ≈ 2.14 AU, and demonstrates that the Solar System obeys a quantised
+harmonic order. All included Python scripts reproduce the published figures, tables,
+and numerical results of the paper.
 
 ---
 
 ## 🚀 Version History
 
+### Version 3.0 (2026) — Revised Manuscript, Definitive Preprint
+
+Substantially revised version submitted to *Frontiers in Astronomy and Space Sciences*,
+archived on Zenodo as the definitive preprint. This version supersedes v2.0.
+
+**Key Changes:**
+- Revised and expanded manuscript with improved presentation and cleaner mathematical
+  exposition
+- Updated SRHF geometric construction figure (`srhf_geometry_circles.png`) now shows
+  the full Celtic Cross geometry with labelled harmonic constants $(A, B, C, D)$
+- Refined section structure with clearer separation of empirical results, comparative
+  analysis, and speculative connections
+- All quantitative results unchanged: MAPE ≈ 0.72%, RMSE ≈ 0.11 AU
+- Python scripts updated to reflect consistent SRHF terminology throughout
+
+**DOI:** [10.5281/zenodo.18816002](https://doi.org/10.5281/zenodo.18816002)
+
+📥 **PDF:** [`v3.0/Gherbi_2026_Harmonic_Architecture_Solar_System_v3.pdf`](./v3.0/Gherbi_2026_Harmonic_Architecture_Solar_System_v3.pdf)
+
+---
+
 ### Version 2.0 (November 2025) — Extended Validation & Testability
-**Expands the quantitative and methodological foundations**, refining both empirical validation and theoretical testability of the Celtic Cross harmonic model.
+
+Expanded quantitative and methodological foundations, refining both empirical
+validation and theoretical testability of the Celtic Cross harmonic model.
 
 **Key Enhancements:**
-- **Empirical Validation**: Detailed statistical analysis demonstrating all planetary semi-major axes fit within sub-percent deviation (MAPE ≈ 0.72%, RMSE ≈ 0.11 AU)
-- **Comparative Performance**: Outperforms classical Keplerian and Titius–Bode formulations by over an order of magnitude
-- **Falsifiability Framework**: Explicit testable predictions, including harmonic node at 2.14 AU for future observational verification
-- **Enhanced Reproducibility**: Complete cryptographic verification and timestamped analysis pipeline
+- Empirical validation: MAPE ≈ 0.72%, RMSE ≈ 0.11 AU across all planetary orbits
+- Comparative performance: outperforms classical Keplerian and Titius–Bode models by
+  over an order of magnitude
+- Falsifiability framework: explicit testable predictions including harmonic node at
+  2.14 AU
+- Enhanced reproducibility: cryptographic verification and timestamping pipeline
 
 **DOI:** [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
 
+📥 **PDF:** [`Gherbi_2025_Harmonic_Architecture_Solar_System_v_2.pdf`](./Gherbi_2025_Harmonic_Architecture_Solar_System_v_2.pdf)
+
+---
+
 ### Version 1.0 (October 2025) — Initial Framework
-- Initial harmonic framework for Solar System
-- Celtic Cross geometric model based on √2 ratios
-- Harmonia orbital prediction at 2.14 AU
-- Foundational scripts and verification proofs
+
+Initial harmonic framework for the Solar System. Celtic Cross geometric model based
+on √2 ratios. Harmonia orbital prediction at 2.14 AU. Foundational scripts and
+verification proofs.
 
 **DOI:** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
+
+📥 **PDF:** [`Gherbi_2025_Harmonic_Architecture_Solar_System_v1_1.pdf`](./Gherbi_2025_Harmonic_Architecture_Solar_System_v1_1.pdf)
 
 ---
 
 ## 🔬 Research Evolution
 
-**From Pattern to Predictive Framework:**
-- **v1.0**: Established the core harmonic model and geometric foundation
-- **v2.0**: Transformed into a testable scientific framework with:
-  - **Quantitative validation** (0.72% MAPE across full solar system)
-  - **Comparative benchmarking** vs. classical models
-  - **Falsifiability criteria** for empirical testing
-  - **Cryptographic reproducibility** guarantees
-
-The model now stands as a **predictive, testable framework** rather than just a descriptive pattern.
+| Version | Focus | Key achievement |
+|---------|-------|-----------------|
+| v1.0 | Core harmonic model | Celtic Cross geometry, Harmonia prediction |
+| v2.0 | Testable framework | Quantitative validation, falsifiability criteria |
+| v3.0 | Definitive preprint | Revised manuscript, improved exposition, journal submission |
 
 ---
 
-## 📄 Research Records
+## 📁 Repository Structure
 
-### Version 2.0 — Extended Validation & Testability
-**Salah-Eddin Gherbi (2025)**  
-*The Harmonic Architecture of the Solar System: A Geometric and Resonant Analysis*  
-**Zenodo DOI:** [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
+```
+harmonic-architecture-solar-system/
+│
+├── v3.0/                          ← Version 3.0 (current)
+│   ├── scripts/                   ← Python scripts for v3.0
+│   ├── figures/                   ← Output figures for v3.0
+│   └── proof/                     ← Cryptographic provenance for v3.0
+│
+├── scripts/                       ← Scripts from v1.0–v2.0 (preserved)
+├── figures/                       ← Figures from v1.0–v2.0 (preserved)
+├── proof/                         ← Proof archive from v1.0–v2.0 (preserved)
+│
+├── Gherbi_2025_Harmonic_Architecture_Solar_System_v1_1.pdf
+├── Gherbi_2025_Harmonic_Architecture_Solar_System_v_2.pdf
+├── README.md
+├── README_PROVENANCE.md
+└── README_PROTECTION_SUMMARY.md
+```
 
-📥 **PDF:** [`Gherbi_2025_Harmonic_Architecture_Solar_System_v_2.pdf`](./Gherbi_2025_Harmonic_Architecture_Solar_System_v_2.pdf)
-
-*This version expands quantitative foundations with detailed empirical validation and explicit falsifiability tests, strengthening the model's scientific positioning.*
-
-### Version 1.0 — Initial Framework  
-**Salah-Eddin Gherbi (2025)**  
-*The Gravitational Quantization Law: A Universal Harmonic Framework for Planetary Orbits*  
-**Zenodo DOI:** [10.5281/zenodo.17432971](https://doi.org/10.5281/zenodo.17432971)
-
-📥 **PDF:** [`Gherbi_2025_Harmonic_Architecture_Solar_System_v1_1.pdf`](./Gherbi_2025_Harmonic_Architecture_Solar_System_v1_1.pdf)
-
-*This version establishes the core harmonic model and geometric foundation*
-
-All computational models, harmonic optimization scripts, and figure-generation tools are included here for open verification.
+> **Note:** The `scripts/`, `figures/`, and `proof/` folders at the repository root
+> belong to **v1.0 and v2.0**. All v3.0 materials are self-contained within the
+> `v3.0/` subfolder.
 
 ---
-# 📁 Repository Contents
 
-## 🔹 1. Harmonic Model & Core Constants
+## 📂 Version 3.0 Contents
 
-Defines the fundamental ratios and geometric principles underlying the Celtic Cross framework.
+### 🔹 `v3.0/scripts/` — Python Scripts
 
-| Script | Description |
-|--------|-------------|
-| `celtic_kepler_symbolic_verification.py` | Symbolic verification of the Celtic Cross ratios (√2 system) vs Kepler's geometric polyhedral ratios. |
-| `celtic_full_system_verification.py` | Full model validation across the Solar System, comparing predicted and observed orbital distances. |
-| `celtic_full_system_rmse.py` | Computes global RMSE to quantify overall model precision. |
-
-## 🔹 2. Optimization & Harmonic Stability
-
-Scripts demonstrating how the optimal harmonic node (2.14 AU) and minimal residual basin are identified.
+All scripts have been updated to reflect consistent SRHF terminology throughout.
+The underlying computations, constants, and outputs are unchanged from v2.0.
 
 | Script | Description |
 |--------|-------------|
-| `harmonia_position_optimization.py` | Empirical optimization of Harmonia's orbital position using RMSE minimization. |
-| `harmonic_dual_optimization.py` | Joint RMSE–HSI comparison showing harmonic equilibrium near 2.145 AU. |
-| `harmonic_basin_compact.py` | Compact illustration of the harmonic basin and stability valley around the optimum node. |
+| `srhf_harmonia_optimisation.py` | RMSE optimisation of the Harmonia node over [2.12, 2.18] AU |
+| `srhf_harmonia_orbit.py` | Solar System diagram showing the 2.14 AU harmonic node and asteroid belt context |
+| `srhf_hsi_values.py` | Harmonic Symmetry Index curve showing the narrow stability basin |
+| `srhf_log_validation.py` | Observed and predicted semi-major axes on logarithmic scale |
+| `srhf_percent_deviation.py` | Percentage deviation plot with 0.72% mean absolute error band |
+| `srhf_ratios_full.py` | Full-system observed-to-predicted ratios from Mercury to Pluto |
+| `srhf_ratios_zoom.py` | Zoomed ratios for Mars–Pluto range highlighting ≲1.5% deviations |
+| `srhf_residuals_comparison.py` | Percentage residuals comparing algebraic, empirical, and π²/³ Harmonia nodes |
+| `srhf_residuals_log.py` | Logarithmic residuals showing Neptune's zero crossing at the empirical optimum |
+| `srhf_residuals_symlog.py` | Symmetric logarithmic residuals revealing harmonic inversion and stability region |
+| `srhf_rmse_hsi_basin.py` | Dual-axis RMSE and HSI plot showing the harmonic equilibrium basin |
 
-## 🔹 3. Planetary Ratios & Comparative Analysis
+### 🔹 `v3.0/figures/` — Output Figures
 
-Compares model predictions, residuals, and ratios across planetary scales.
+| Figure | Description |
+|--------|-------------|
+| `srhf_geometry_circles.png` | Full Celtic Cross geometry with labelled harmonic constants $(A, B, C, D)$ — updated figure for v3.0 |
+| `srhf_harmonia_optimisation.png` | RMSE optimisation curve |
+| `srhf_harmonia_orbit.png` | Harmonia node orbit diagram |
+| `srhf_harmonic_ladder.png` | Complete Solar System harmonic ladder expressed in terms of δ_s |
+| `srhf_hsi_values.png` | Harmonic Symmetry Index |
+| `srhf_log_validation.png` | Log-scale validation |
+| `srhf_percent_deviation.png` | Percentage deviations |
+| `srhf_quantum_celestial.png` | Quantum–Celestial analogy: Bohr model vs SRHF |
+| `srhf_ratios_full.png` | Full-system ratios |
+| `srhf_ratios_zoom.png` | Mars–Pluto zoom |
+| `srhf_residuals_comparison.png` | Residuals comparison |
+| `srhf_residuals_log.png` | Logarithmic residuals |
+| `srhf_residuals_symlog.png` | Symlog residuals |
+| `srhf_rmse_hsi_basin.png` | RMSE–HSI harmonic basin |
+
+### 🔹 `v3.0/proof/` — Cryptographic Provenance
+
+This folder contains the integrity and authorship verification package for the v3.0
+manuscript and associated scripts, consistent with the methodology described in
+[`README_PROVENANCE.md`](./README_PROVENANCE.md).
+
+| File | Description |
+|------|-------------|
+| `harmonic_architecture_frontiers_v1.zip` | ZIP archive of all submitted files |
+| `harmonic_architecture_frontiers_v1.zip.sha256` | SHA-256 content digest |
+| `harmonic_architecture_frontiers_v1.zip.asc` | GPG detached signature (authorship proof) |
+| `harmonic_architecture_frontiers_v1.zip.ots` | OpenTimestamps Bitcoin-anchored timestamp |
+| `README_PROVENANCE.md` | Full provenance and verification instructions |
+
+To verify integrity independently:
+```bash
+sha256sum harmonic_architecture_frontiers_v1.zip
+gpg --verify harmonic_architecture_frontiers_v1.zip.asc harmonic_architecture_frontiers_v1.zip
+ots verify harmonic_architecture_frontiers_v1.zip.ots
+```
+
+---
+
+## 📂 Previous Version Contents (root-level)
+
+> The `scripts/`, `figures/`, and `proof/` folders at the repository root contain
+> materials from **v1.0 and v2.0** and are preserved for continuity and
+> reproducibility.
+
+### 🔹 `scripts/` (v1.0–v2.0)
 
 | Script | Description |
 |--------|-------------|
-| `harmonia_ratio_verification.py` | Tabulates harmonic ratios between planets including the theoretical Harmonia node. |
-| `celtic_vs_kepler_comparison.py` | Quantitative error comparison between Kepler's and Celtic geometric models. |
-| `celtic_mape_optimization.py` | Optimization of MAPE (mean absolute percentage error) across outer planets. |
-
-## 🔹 4. Visualization & Figures
-
-All published figures reproduced from the study, illustrating model accuracy and geometric harmony.
-
-| Script | Description |
-|--------|-------------|
-| `harmonia_orbit_node_2_14.py` | Diagram of the Solar System showing the 2.14 AU harmonic node and asteroid belt context. |
-| `harmonic_ladder_RMSE_HSI_Residuals_symlog_final.py` | Dual-axis plot of RMSE and HSI with symmetric log residuals (final publication figure). |
-| `planetary_harmonic_percent_deviation_with_inset.py` | Percentage deviation plot with inset zoom around the Harmonia node. |
-
-### `/figures/`
-Rendered figures corresponding to each script.  
-These are direct outputs of the models and are suitable for citation or publication.
-
-### `/proofs/` *(not public in all releases)*
-Contains `.asc`, `.ots`, and `_proof.txt` files documenting authorship, SHA-256 checksums, and blockchain timestamps for verification integrity.
-
-## 🔹 5. Access to Extended Materials
-
-Additional analytical and verification scripts (full suite of 26) are retained in a private research repository.
-
-Researchers interested in the complete dataset, verification proofs, or replication materials may request access directly from the author at [salahealer@gmail.com](mailto:salahealer@gmail.com).
+| `celtic_kepler_symbolic_verification.py` | Symbolic verification of Celtic Cross ratios vs Kepler's polyhedral ratios |
+| `celtic_full_system_verification.py` | Full model validation across the Solar System |
+| `celtic_full_system_rmse.py` | Global RMSE computation |
+| `harmonia_position_optimization.py` | Empirical optimisation of Harmonia's orbital position |
+| `harmonic_dual_optimization.py` | Joint RMSE–HSI comparison |
+| `harmonic_basin_compact.py` | Harmonic basin and stability valley |
+| `harmonia_ratio_verification.py` | Harmonic ratio tabulation including Harmonia node |
+| `celtic_vs_kepler_comparison.py` | Quantitative error comparison |
+| `celtic_mape_optimization.py` | MAPE optimisation across outer planets |
+| `harmonia_orbit_node_2_14.py` | Solar System diagram with 2.14 AU node |
+| `harmonic_ladder_RMSE_HSI_Residuals_symlog_final.py` | Dual-axis RMSE/HSI with symlog residuals |
+| `planetary_harmonic_percent_deviation_with_inset.py` | Percentage deviation with inset zoom |
 
 ---
 
 ## 🧮 Computational Environment
-All code was written in **Python 3**, using standard scientific libraries:
-- `numpy`  
-- `matplotlib`  
-- `scipy`
 
-All numerical results were computed in double precision.  
-Plots use consistent color palettes (gold–indigo) for visual clarity.
+All code written in **Python 3**, using standard scientific libraries:
+
+- `numpy` 1.26
+- `matplotlib` 3.9
+- `scipy` 1.13
+
+All numerical results computed in double precision. Figures exported in PDF/PNG
+at 600 DPI using Matplotlib.
+
+---
+
+## 🧪 How to Reproduce the v3.0 Figures
+
+1. **Clone or download** this repository:
+   ```bash
+   git clone https://github.com/salahealer9/harmonic-architecture-solar-system.git
+   cd harmonic-architecture-solar-system/v3.0/scripts
+   ```
+
+2. **Install required packages** (Python 3.10+):
+   ```bash
+   pip install numpy matplotlib scipy
+   ```
+
+3. **Run the scripts:**
+   ```bash
+   python srhf_harmonia_optimisation.py
+   python srhf_harmonia_orbit.py
+   python srhf_hsi_values.py
+   python srhf_log_validation.py
+   python srhf_percent_deviation.py
+   python srhf_ratios_full.py
+   python srhf_ratios_zoom.py
+   python srhf_residuals_comparison.py
+   python srhf_residuals_log.py
+   python srhf_residuals_symlog.py
+   python srhf_rmse_hsi_basin.py
+   ```
+   Each script produces `.pdf` and `.png` outputs in the working directory.
 
 ---
 
 ## 🔒 Authorship and Integrity
 
-All research scripts and results are **cryptographically timestamped** and **digitally signed** to ensure authorship integrity and reproducibility.  
-A private `/proof/` archive (excluded from this repository) contains verified OpenTimestamps (`.ots`) proofs, GPG signatures (`.asc`), and manifest files (`_proof.txt`) for each script.  
-These materials are securely stored offline and available for independent verification upon formal request.
+All research scripts and results are **cryptographically timestamped** and
+**digitally signed** to ensure authorship integrity and reproducibility.
+The `v3.0/proof/` folder contains the complete provenance package for this version.
+Root-level `proof/` materials cover v1.0 and v2.0.
 
-The **full research implementation**, including advanced optimization and analysis scripts, will be released following the publication of the author’s forthcoming book.  
-**Meanwhile, qualified researchers may request access to these extended materials for verification or collaborative purposes.**
-
-**Access Policy:**  
-Access to the private repository containing full source files and verification materials may be granted to verified researchers or collaborators upon formal request. Contact the author at [salahealer@gmail.com](mailto:salahealer@gmail.com) for details.
-
----
-
-## 🧪 How to Reproduce the Figures
-
-1. **Clone or download** this repository:  
-   ```bash
-   git clone https://github.com/salahealer9/harmonic-architecture-solar-system.git
-   cd harmonic-architecture-solar-system/scripts
-   ```
-2. **Install required packages** (Python 3.10+):
-   ```bash
-   pip install numpy matplotlib scipy
-   ```
-4. **Run the scripts** to regenerate all figures:
-   ```bash
-   python celtic_kepler_symbolic_verification.py
-   python celtic_full_system_verification.py
-   python celtic_full_system_rmse.py
-   python harmonia_position_optimization.py
-   python harmonic_dual_optimization.py
-   python harmonic_basin_compact.py
-   python harmonia_ratio_verification.py
-   python celtic_vs_kepler_comparison.py
-   python celtic_mape_optimization.py
-   python harmonia_orbit_node_2_14.py
-   python harmonic_ladder_RMSE_HSI_Residuals_symlog_final.py
-   python planetary_harmonic_percent_deviation_with_inset.py
-   ```
-   Each script will automatically produce .pdf and .png outputs in the working directory.
-   
----
-
-## 🧭 Verification Notes
-For details on digital signatures and cryptographic timestamps, see the *Authorship and Integrity* section above.  
-All original research files were timestamped and signed for integrity using:
-
-- **.asc** → GPG digital signature  
-- **.ots** → OpenTimestamps blockchain proof  
-- **_proof.txt** → SHA-256 manifest  
-
-Verification materials are stored in the private `/proof/` archive and are available for independent validation upon request.
+See [`README_PROVENANCE.md`](./README_PROVENANCE.md) for full verification
+instructions including SHA-256, GPG, and OpenTimestamps procedures.
 
 ---
 
 ## 📜 Citation
-If you use or reference this repository, please cite:
 
-> **Gherbi, S.-E. (2025)**. *The Harmonic Architecture of the Solar System: Verification and Reproduction Scripts*.  
-> Zenodo. DOI: [10.5281/zenodo.17521488](https://doi.org/10.5281/zenodo.17521488)
-> 
+Please cite the latest version using the v3.0 DOI:
+
+> **Gherbi, S.-E. (2026)**. *The Harmonic Architecture of the Solar System:
+> A Silver-Ratio-Based Hypothesis for Planetary Spacing*. Version 3.0.
+> Zenodo. DOI: [10.5281/zenodo.18816002](https://doi.org/10.5281/zenodo.18816002)
+
 ```bibtex
-@software{gherbi_2025_harmonic_architecture,
-  author    = {Salah-Eddin Gherbi},
-  title     = {The Harmonic Architecture of the Solar System: A Geometric and Resonant Analysis},
-  year      = {2025},
+@article{gherbi_2026_harmonic_architecture,
+  author    = {Gherbi, Salah-Eddin},
+  title     = {The Harmonic Architecture of the Solar System:
+               A Silver-Ratio-Based Hypothesis for Planetary Spacing},
+  year      = {2026},
   publisher = {Zenodo},
-  version   = {2.0},
-  doi       = {10.5281/zenodo.17521488}
+  version   = {3.0},
+  doi       = {10.5281/zenodo.18816002}
+}
+
+@book{gherbi_2026_scala_harmonica,
+  author    = {Gherbi, Salah-Eddin},
+  title     = {{Scala Harmonica: The Geometry of Planetary Resonance}},
+  publisher = {Vektor Publishing},
+  year      = {2026},
+  isbn      = {9781837095209}
 }
 ```
 
-For citation of Version 1.0, please take a look at the Version History section.
+For citation of specific earlier versions, see the Version History section above.
 
 ---
 
 ## 📜 License
-This repository is licensed under the  
-[**Creative Commons Attribution–NonCommercial 4.0 International (CC BY–NC 4.0)**](https://creativecommons.org/licenses/by-nc/4.0/).  
 
-© 2025 Salah-Eddin Gherbi.  
-You may share and adapt this material for non-commercial purposes, provided appropriate credit is given.
+This repository is licensed under the
+[**Creative Commons Attribution–NonCommercial 4.0 International (CC BY–NC 4.0)**](https://creativecommons.org/licenses/by-nc/4.0/).
 
----
-
-## 🌠 Acknowledgment
-
-All computations, analyses, and visualizations were independently developed by **Salah-Eddin Gherbi** as part of original research into the harmonic-geometric structure of the Solar System.
-
-For academic collaboration, verification requests, or replication studies, please contact:  
-**📧 salahealer@gmail.com**
+© 2026 Salah-Eddin Gherbi.  
+You may share and adapt this material for non-commercial purposes,
+provided appropriate credit is given.
 
 ---
 
 ## 🔒 Integrity Verification
-All original research scripts and figures have been cryptographically timestamped and digitally signed to ensure authenticity and provenance.  
-A public summary of the verification process is available here:  
-➡️ [**README_PROTECTION_SUMMARY.md**](./README_PROTECTION_SUMMARY.md)
+
+All original research scripts and figures have been cryptographically timestamped
+and digitally signed to ensure authenticity and provenance.
+
+➡️ [`README_PROVENANCE.md`](./README_PROVENANCE.md) — full verification instructions  
+➡️ [`README_PROTECTION_SUMMARY.md`](./README_PROTECTION_SUMMARY.md) — public summary
 
 ---
 
 ## 📬 Contact
+
 **Author:** Salah-Eddin Gherbi  
 **Email:** [salahealer@gmail.com](mailto:salahealer@gmail.com)  
 **ORCID:** [0009-0005-4017-1095](https://orcid.org/0009-0005-4017-1095)  
-**Repository:** [Harmonic Architecture Solar System](https://github.com/salahealer9/harmonic-architecture-solar-system)
-
+**Repository:** [harmonic-architecture-solar-system](https://github.com/salahealer9/harmonic-architecture-solar-system)
