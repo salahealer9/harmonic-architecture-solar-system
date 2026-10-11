@@ -1,20 +1,19 @@
 # Provenance & Cryptographic Integrity Record
 
-This file documents the cryptographic authorship verification for the manuscript 
-submitted to Frontiers in Astronomy and Space Sciences (2025).
+This is a historical provenance note for the 2025 Frontiers submission. It does not certify the corrected v3.1 manuscript or the separate v3.1.0 software release.
 
-Verification files and full instructions are located in `v3.0/proof/`.
+The associated ZIP, detached signature, SHA-256 file and OpenTimestamps receipt are publicly tracked under `v3.0/proof/`.
 
 **Manuscript:** *The Harmonic Architecture of the Solar System: A Silver-Ratio-Based Hypothesis for Planetary Spacing*  
-**Author:** Salah-Eddin Gherbi  
+**Author:** Salah-Eddin Gherbi
 
-This document provides a complete, verifiable cryptographic provenance record for the files archived in this repository. The goal is to ensure **authorship proof**, **content integrity**, and **long-term reproducibility** using SHA-256 hashing, GPG digital signatures, and OpenTimestamps (OTS) Bitcoin calendar attestations.
+These artifacts support file-specific verification, subject to checking the signatures, hashes and timestamp receipts. They do not independently prove scientific priority or correctness.
 
 ---
 
 ## 1. SHA-256 Digest (Content Integrity)
 
-The SHA-256 hash uniquely identifies the ZIP file contents:
+The historical SHA-256 digest recorded for the archived ZIP is:
 
 ```
 56ff9ec4415a94ae0b3e29eaa9865eb22337481d24121ad8b5f3c32c90607a2b
@@ -23,7 +22,7 @@ The SHA-256 hash uniquely identifies the ZIP file contents:
 To verify on any system:
 
 ```bash
-sha256sum harmonic_architecture_frontiers_v1.zip
+sha256sum v3.0/proof/harmonic_architecture_frontiers_v1.zip
 ```
 
 The output must match the hash above exactly.
@@ -36,21 +35,19 @@ The ZIP archive is signed with the author's private GPG key using a detached,
 ASCII-armored signature.
 
 ```bash
-gpg --verify harmonic_architecture_frontiers_v1.zip.asc harmonic_architecture_frontiers_v1.zip
+gpg --verify v3.0/proof/harmonic_architecture_frontiers_v1.zip.asc v3.0/proof/harmonic_architecture_frontiers_v1.zip
 ```
 
-A successful verification confirms authorship and that the file has not been
-altered since signing.
+A successful signature verification confirms that the signature matches the supplied file under the specified public key. Identification of the signer and scientific authorship require separate evidence.
 
 ---
 
 ## 3. OpenTimestamps (OTS) Proof
 
-The OTS receipt proves the ZIP existed no later than the moment the timestamp
-was submitted to the Bitcoin calendar servers.
+If independently validated and anchored, an OTS receipt can establish that the committed file bytes existed no later than the relevant blockchain timestamp. It does not independently establish authorship or the date of a scientific discovery.
 
 ```bash
-ots verify harmonic_architecture_frontiers_v1.zip.ots
+ots verify v3.0/proof/harmonic_architecture_frontiers_v1.zip.ots
 ```
 
 If fully confirmed, verification will show:
@@ -66,7 +63,7 @@ Bitcoin calendar aggregation, typically within a few hours.
 
 ## 4. Files Required for Verification
 
-Keep these files together to enable full independent verification:
+The following files are tracked together under `v3.0/proof/` for independent verification:
 
 ```
 harmonic_architecture_frontiers_v1.zip

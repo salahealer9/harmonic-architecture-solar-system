@@ -1,15 +1,12 @@
 # 🔒 DISCOVERY PROTECTION RECORD
 
 ## Overview
-This document provides verifiable cryptographic evidence of authorship and originality for  
-**“The Harmonic Architecture of the Solar System”** and its associated research scripts.
 
-All files listed below were timestamped and signed to ensure long-term reproducibility and  
-authorship integrity. Verification is based on OpenTimestamps (Bitcoin blockchain) and  
-GPG digital signatures.
+This document preserves a historical inventory of cryptographic signing and timestamp records associated with *The Harmonic Architecture of the Solar System* and its research scripts.
 
-> **Note:** Detailed merkle roots and full timestamp proofs are preserved privately  
-> in the `/proof/` archive for independent verification upon formal request.
+The accompanying `.asc`, `.ots` and `_proof.txt` artifacts are publicly tracked in this `proof/` directory. Their validity must be assessed individually against the corresponding file bytes, public signing keys and timestamp receipts.
+
+The verification results and block numbers below are historical reported records, not newly independently certified results. Cryptographic provenance does not by itself establish scientific originality, priority, correctness or reproducibility.
 
 ---
 
@@ -22,7 +19,7 @@ Three verification files accompany each listed script:
 
 ### Core Research Scripts
 
-| Script | Verification Status |
+| Script | Historically reported verification status |
 |:-------------------------------------------|:-------------------------------------------|
 | `solar_harmonic_outer_planets.py` | ✅ Confirmed — Block 920119 — [Merkle root redacted] |
 | `harmonia_position_optimization.py` | ✅ Confirmed — Block 920119 — [Merkle root redacted] |
@@ -68,12 +65,12 @@ gpg --verify <file>.asc <file>
 ots verify <file>.ots
 ```
 
-Each step ensures that the file remains identical to the original, timestamped version.
+Together, these checks can establish consistency with recorded hashes, signatures and timestamp receipts when verification succeeds. They do not independently establish authorship or scientific validity.
 
 ## 📜 Discovery Record
 
 **Discovery:** Harmonic quantization law of the Solar System
-**Verification Completed:** 2025-10-25
+**Historical verification date reported:** 2025-10-25
 **Confirmed OpenTimestamps Servers:**
 ```bash
 bob.btc.calendar.opentimestamps.org,
@@ -86,4 +83,4 @@ Last verification cache refresh: 2025-10-25T15:21:37 UTC
 ## ⚖️ License
 
 **Copyright © 2025 Salah-Eddin Gherbi**  
-Authorship and timestamp verification certified via decentralized proof-of-existence networks.
+The historical cryptographic records remain available for independent file-specific verification.

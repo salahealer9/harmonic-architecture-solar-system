@@ -1,33 +1,30 @@
 # 🔒 Discovery Protection Summary
 
 ## Overview
-This repository and its associated research are protected by verifiable cryptographic evidence of authorship and integrity.  
-All key research files have been **digitally signed** and **timestamped** using open, decentralized systems to ensure their authenticity and originality.
 
-The full verification set — including `.asc` (GPG signatures), `.ots` (OpenTimestamps proofs), and `_proof.txt` (SHA-256 manifests) — is securely archived in a private `/proof/` folder.
+This document summarises historical cryptographic provenance records for the Solar System harmonic architecture research. Associated public proof artifacts are tracked under `proof/` and `v3.0/proof/`.
+
+GPG signatures, cryptographic hashes and OpenTimestamps receipts can provide file-specific integrity, signing-key and timestamped-existence evidence when independently verified. They do not independently establish scientific authorship, originality, priority or correctness.
 
 ---
 
 ## 🧾 Protection Methodology
 
-| Layer | Description |
-|:------|:-------------|
-| **GPG Signature (.asc)** | Confirms authorship identity using a cryptographic public/private keypair. |
-| **SHA-256 Manifest (_proof.txt)** | Contains cryptographic checksums and timestamp metadata for each protected file. |
-| **OpenTimestamps (.ots)** | Anchors each checksum into the Bitcoin blockchain, providing an immutable, verifiable proof of creation date. |
+| Layer | Verification scope |
+|:------|:-------------------|
+| GPG signature (`.asc`) | Tests whether a signature matches particular file bytes under a specified public key. |
+| SHA-256 manifest (`_proof.txt`) | Records file digests against which file integrity can be checked. |
+| OpenTimestamps receipt (`.ots`) | Can establish an upper bound on the existence time of committed bytes, subject to successful receipt and blockchain-anchor verification. |
 
-These methods collectively guarantee:
-- Proof of authorship and date of discovery  
-- File integrity and reproducibility  
-- Resistance to tampering or unauthorized modification  
+These mechanisms do not themselves validate scientific interpretations or independently establish the identity of an original discoverer.
 
 ---
 
 ## 🔍 Verification
 
-Interested researchers or reviewers may request access to the private verification archive for independent validation.
+Historical public artifacts are available in `proof/` and `v3.0/proof/`. Verify each artifact against its corresponding original file rather than inferring validity from its filename or historical status label.
 
-Verification commands (for authorized access):
+For a given file and its corresponding proof files, typical commands are:
 
 ```bash
 sha256sum <file>
@@ -35,11 +32,15 @@ gpg --verify <file>.asc <file>
 ots verify <file>.ots
 ```
 
+Additional privately retained evidence, if required, must be evaluated separately.
 ## 📗 Discovery Record
 
-**Discovery:** The Harmonic Quantization Law of the Solar System  
-**Verified using:** OpenTimestamps + GPG  
-**Date confirmed:** October 25, 2025  
+**Historical research subject:** The Harmonic Quantization Law of the Solar System
+
+**Historical evidence methods:** OpenTimestamps + GPG
+
+**Historical verification date recorded:** October 25, 2025
+
 **Author:** Salah-Eddin Gherbi  
 **ORCID:** 0009-0005-4017-1095  
 **Contact:** salahealer@gmail.com
@@ -50,10 +51,10 @@ Gherbi, S.-E. (2025). *The Harmonic Architecture of the Solar System: Discovery 
 Private cryptographic archive (OpenTimestamps + GPG verification). 
 Available from author upon request for verification purposes.
 
-## ⚖️ License & Verification
+## ⚖️ Licensing and evidence scope
 
-**Copyright © 2025 Salah-Eddin Gherbi**  
-Authorship and timestamp verification certified via decentralized proof-of-existence networks.
+**Copyright © 2025 Salah-Eddin Gherbi**
 
-The public repository ([github.com/salahealer9/harmonic-architecture-solar-system](https://github.com/salahealer9/harmonic-architecture-solar-system)) is distributed under the  
-**Creative Commons Attribution–NonCommercial 4.0 International (CC BY–NC 4.0)**.
+This is a historical provenance description, not a certification of scientific priority or discovery.
+
+The v3.1 manuscript is distributed under CC BY-NC 4.0. The specifically enumerated author-controlled Python source files in `software/srhf-v3.1/` have separate MIT licensing. Historical repository materials and third-party dependencies retain their applicable terms.
