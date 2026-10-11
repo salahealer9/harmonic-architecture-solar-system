@@ -27,13 +27,13 @@ The orbital inputs are author-adopted rounded values compiled from earlier publi
 
 This public branch preserves **historical v1.0–v3.0 scripts, figures and provenance materials**. The v3.1 manuscript PDF is published here and on Zenodo.
 
-The separately audited **v3.1 Python source-only software distribution** is being prepared for its own controlled release. It **is not included in this manuscript-only snapshot**; do not assume that historical scripts, figures or proofs represent the corrected v3.1 release. In particular, historical documentation and graphics may report superseded numerical results or interpretations.
+The separately audited **SRHF v3.1.0 Python source-only software release** is now public. Its 18-file curated package is available in [`software/srhf-v3.1/`](software/srhf-v3.1/), under the signed [`software-v3.1.0`](https://github.com/salahealer9/harmonic-architecture-solar-system/tree/software-v3.1.0) Git tag, and in the independent [Zenodo Software record](https://doi.org/10.5281/zenodo.23304449). Historical scripts, figures and proofs may report superseded results or interpretations and should not be confused with the corrected release.
 
 - [Historical v3.0 materials](v3.0/)
 - [Historical root-level scripts](scripts/)
 - [Historical root-level figures](figures/)
-- [Public provenance explanation](README_PROVENANCE.md)
-- [Public protection summary](README_PROTECTION_SUMMARY.md)
+- [Historical provenance notes](README_PROVENANCE.md)
+- [Historical protection summary](README_PROTECTION_SUMMARY.md)
 
 The v3.1 scientific manuscript uses 14 figure inclusions. Eleven scientific graphic assets have identified generator scripts; three retained graphic assets do not have independently matched generator scripts. Reproducibility claims are limited to the documented scope.
 
@@ -48,7 +48,7 @@ The v3.1 scientific manuscript uses 14 figure inclusions. Eleven scientific grap
 
 The previously reported historical numerical scores and claims should not be treated as corrected v3.1 results. Past Git history and preprints are preserved as historical records, not silently rewritten.
 
-The two older PDF copies presently in the repository root are historical artifacts. Their potential removal from the current branch is a **separate housekeeping decision** and is not part of the manuscript-only release.
+The v1.0 and v2.0 manuscript PDFs are preserved in their historical Zenodo records and Git history rather than duplicated at the repository root.
 
 ## Citation
 
@@ -69,9 +69,9 @@ Companion book: Gherbi, Salah-Eddin (2026). *Scala Harmonica: The Geometry of Pl
 
 ## Licensing and provenance
 
-The **v3.1 manuscript and author-controlled figures** use the [CC BY-NC 4.0 licence](https://creativecommons.org/licenses/by-nc/4.0/), subject to the stated source/rights scope. The historical repository files retain their applicable historical licences and notices. The **separate v3.1 original Python distribution** has a distinct MIT licensing plan, to be documented at its own release; a blanket licence statement about all current and future code is not intended.
+The **v3.1 manuscript and author-controlled figures** use the [CC BY-NC 4.0 licence](https://creativecommons.org/licenses/by-nc/4.0/), subject to the stated source/rights scope. The historical repository files retain their applicable historical licences and notices. The 13 identified author-controlled Python source files in the v3.1.0 software package are released under MIT, as documented in [`SOURCE_LICENSE_SCOPE.md`](software/srhf-v3.1/SOURCE_LICENSE_SCOPE.md). Third-party dependencies and other repository materials retain their applicable separate licensing terms.
 
-Signed Git commits, file hashes and release-review evidence were retained in the author's separate working history. This manuscript snapshot does **not** publish the private audit branch, audit records, draft packages or unpublished software. See [README_PROVENANCE.md](README_PROVENANCE.md) for historical public provenance instructions.
+Signed Git commits, file hashes and release-review evidence were retained in the author's separate working history. The public manuscript and curated software releases do **not** publish the private scientific-audit branch, private review records or draft packages. See [README_PROVENANCE.md](README_PROVENANCE.md) for historical public provenance instructions.
 
 ## Contact
 
